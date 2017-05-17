@@ -6,10 +6,10 @@
 ## 主要プロパティ
 
 |        プロパティ       |           説明            |           サンプル           |
-|:----------------------|:--------------------------|--------------------------:|
-|count                  |要素数               　　　　|indexPath.count             |      
-|section                |セクション               　　|indexPath.section           |
-|row                    |行                         |indexPath.row                |
+|:----------------------|:-------------------------|:----------------------------|
+|count                  |要素数               　　　　|indexPath.count              |      
+|section                |セクション               　　|indexPath.section            |
+|row                    |行                         |indexPath.row                |
 
 ## フレームワーク
 UIKit.framework
