@@ -10,16 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let array = [["a","b","c","d"],["e","f","g"]]
+    let indexPath = IndexPath(row: 2, section: 0)
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        getArrayElementAtIndexPath()
+        getIndexPathCount()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+//MARK:-Option
+    private func getArrayElementAtIndexPath(){
+    
+        print(array[indexPath.section][indexPath.row])
+    
     }
-
-
+    
+    // indexPathの要素数取得
+    private func getIndexPathCount(){
+    
+        print(indexPath.count)
+    }
+    
 }
 

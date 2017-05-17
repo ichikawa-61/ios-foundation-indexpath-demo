@@ -406,6 +406,7 @@
 				3822E3E41ECC96A60061DAAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3822E3E51ECC96A60061DAAD /* Build configuration list for PBXNativeTarget "ios-foundation-indexpath-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +415,7 @@
 				3822E3E71ECC96A60061DAAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
